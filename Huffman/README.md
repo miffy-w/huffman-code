@@ -564,7 +564,7 @@ public getOriginBuffer(decodingTable: Map<string, number>, buffer: Buffer, bitLe
         bitStr += binaryStr[i];
         /* 从解码表中获取 byte 数据 */
         const value = decodingTable.get(bitStr);
-        if (value) {
+        if (typeof value === 'number') {
             bitStr = '';
             nums.push(value);
         }
