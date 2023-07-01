@@ -197,3 +197,8 @@ toBlob(callback, type, quality);
 8. Code Splitting：通过将代码拆分成多个小模块，可以提高页面加载速度；
 
 9. 服务端渲染（SSR）：对于一些需要 SEO 的页面，可以使用SSR技术，将页面的HTML代码在服务器端生成，从而提高页面的搜索排名和加载速度；
+
+
+## Huffman 编码 Node.js 实现
+
+[Huffman 编码 Node.js 实现文档](./Huffman/README.md)
